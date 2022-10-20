@@ -50,6 +50,8 @@ input#nome {
     border-radius: 5px;
     margin-bottom: 10px;
     width: 200px;
+    padding: 2px;
+
 }
 
 input#txtano{
@@ -57,6 +59,7 @@ input#txtano{
     border-radius: 5px;
     margin-bottom: 10px;
     width: 200px;
+    padding: 2px;
 }
 
 input#botao {
