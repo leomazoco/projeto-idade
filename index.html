@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="info">
+            <div id="dados">
+                <h1>Digite suas informações.</h1>
+                <p>Digite seu nome:
+                    <input type="text" id="nome">
+                </p>
+                <p>Ano de nascimento:
+                    <input type="number" name="txtano" id="txtano" min="0">
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="feminino">
+                    <label for="fem">feminino</label>
+                </p>
+                <p><input type="button" value="verificar" onclick="verificar()" id="botao"></p>
+            </div>
+            <div id="resultado">
+                Preencha os dados acima
+            </div>
+        </section>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
