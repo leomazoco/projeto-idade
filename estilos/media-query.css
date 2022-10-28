@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Configuração para Tablet*/
+
+    
+    section#info {
+        width: 70vw;
+        height: auto;
+    }
+
+    div#dados > p {
+        margin: 10px 0px;
+    }
+}
+
