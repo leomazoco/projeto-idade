@@ -4,7 +4,7 @@
 
     
     section#info {
-        width: 70vw;
+        width: 60vw;
         height: auto;
     }
 
@@ -13,3 +13,9 @@
     }
 }
 
+@media screen and (min-width: 992px) {
+    section#info {
+        width: 650px;
+        height: auto;
+    } 
+}
